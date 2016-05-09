@@ -75,9 +75,9 @@ This library provides the following classes:
 - `RxPattern.String(s : String) : RxPattern`
     - Matches a string.
 	- Special characters are escaped.
-- `RxPattern.NewLine : RxPattern`
-    - Matches a new line.
-	- The following sequence / characters are treated as a new line:
+- `RxPattern.LineTerminator : RxPattern`
+    - Matches a line terminator.
+	- The following sequence / characters are treated as a line terminator:
         - CR LF
         - CR
         - LF
